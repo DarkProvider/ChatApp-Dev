@@ -1,0 +1,19 @@
+{
+    "name": "chatapp/server",
+    "description": "The websocket server",
+    "authors": [
+        {
+            "name": "Team Tryhards",
+            "email": "server@tryhards.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*"
+  }
+}
